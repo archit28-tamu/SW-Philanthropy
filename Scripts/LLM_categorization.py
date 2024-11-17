@@ -5,7 +5,7 @@ import numpy as np
 # Function to get classification from LLM API (Hugging Face)
 def classify_grant_purpose(grant_purpose, categories, record_number):
     api_url = "https://api-inference.huggingface.co/models/microsoft/deberta-v3-large"
-    headers = {"Authorization": "Bearer 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"}  # Get a token from Hugging Face
+    headers = {"Authorization": "???"}  # Get a token from Hugging Face
 
     # Request payload
     # data = {
